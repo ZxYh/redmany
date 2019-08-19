@@ -1,0 +1,57 @@
+html,body {margin: 0;padding: 0;width: 100%;height: 100%;font-family: "Microsoft YaHei";}
+body {-webkit-tap-highlight-color: rgba(0,0,0,0);}
+body {
+	background-image: url(login.jpg);
+	background-size: cover;
+}
+input {font-family: "Microsoft YaHei";}
+
+.logo {
+	width: 100%;
+	overflow: hidden;
+	/*background-color: cornflowerblue;*/
+}
+
+.logo img {width: auto;height: auto;margin: 10px auto;}
+
+.logo2 {width: 380px;margin: 0 auto;overflow: hidden;}
+.logo2 img {display: block;width: auto;height: 45px;margin: 17.5px auto;}
+
+.bg {
+	width: 380px;
+    height: 480px;
+    position: absolute;
+    top: 50%;
+    margin-top: -240px;
+    left: 50%;
+    margin-left: -190px;
+	border-radius: 10px;
+	background-color: #4B8ABC;
+	filter:alpha(opacity: 40);
+    opacity:0.4;
+	box-shadow:0 0 15px #000;
+  	-moz-box-shadow:0 0 15px #000;
+  	-webkit-box-shadow:0 0 15px #000;
+  	-o-box-shadow:0 0 15px #000;
+  	-mis-box-shadow:0 0 15px #000;
+}
+ 
+.login {
+	width: 380px;
+    height: 480px;
+    position: absolute;
+    top: 50%;
+    margin-top: -240px;
+    left: 50%;
+    margin-left: -190px;
+}
+
+.form-group, .form-validata {width: 90%;height: 80px;margin: 0 auto;}
+/*.form-group label, .form-validata label {width: 90px;float: left;line-height: 60px;text-align: right;padding-right: 10px;font-size: 14px;color: #245269;font-weight: bold;}*/
+/*.form-group input {width: 180px;height: 30px;border: 1px solid #BFD3E6;margin-top: 14px;background-color: #BFD3E6;padding: 0 5px;font-size: 14px;color: #245269;border-radius: 20px;}*/
+.form-group input {width: 268px;height: 40px;border: 1px solid #BFD3E6;margin: 19px 15px;background-color: #BFD3E6;padding: 0 20px;font-size: 14px;color: #245269;border-radius: 20px;outline: none;}
+/*.form-validata input {width: 90px;height: 30px;border: 1px solid #BFD3E6;margin-top: 14px;float: left;background-color: #BFD3E6;padding: 0 5px;font-size: 14px;color: #245269;border-radius: 20px;}*/
+.form-validata input {width: 170px;height: 40px;border: 1px solid #BFD3E6;margin: 19px 15px;float: left;background-color: #BFD3E6;padding: 0 20px;font-size: 14px;color: #245269;border-radius: 20px;outline: none;}
+.form-validata img {width: 80px;height: 32px;border: none;margin-top: 24px;margin-left: 0;}
+.form-submit {width: 308px;height: 80px;margin: 0 auto;}
+.form-submit .loginButton {width: 100%;height: 40px;border: none;border-radius: 20px;background-color: cornflowerblue;color: white;font-size: 14px;margin: 20px auto;}

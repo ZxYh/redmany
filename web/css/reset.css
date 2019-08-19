@@ -1,0 +1,276 @@
+body {overflow: hidden;}
+.totop {position:fixed; bottom: 80px; right:100px;}
+.bodyreset{background-color: #f9f9f9 !important;overflow-y: auto !important;margin: 0;}
+#iframediv {overflow: hidden;}
+#navbar-container {height:50px !important;}
+/*iFRAME TITLE*/
+.breadcrumbs {height: 39px;line-height: 39px;}
+.breadcrumb {line-height: 39px;float: left;}
+/*遮罩*/
+.tc_big{position:fixed;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,0.4);
+    filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+    z-index: 1000;display:none;}
+.tc_img {width: 100px;height: 130px;z-index: 3000;display:none;position:absolute;left: 50%;top: 50%;margin-top: -85px;margin-left: -50px;}
+.tc_img img {width: 100px;height: 100px;}
+.tc_img span {width: 100px;height: 30px;line-height: 30px;text-align: center;color: white;font-size: 16px;font-weight:bold;display:block;}
+/*---index_1---*/
+.widget-toolbar{height: 37px;line-height:37px;}
+.widget-toolbar>a{height: 37px;line-height:37px;color: #AAAAAA;}
+.widget-toolbar>a>i{height: 37px;line-height:37px;}
+.widget-toolbar>a>span {height: 37px;line-height:37px;font-size: 10px;color: #AAAAAA;}
+.widget-toolbar>a>span:hover {cursor: pointer;color: #1963AA;}
+.widget-body tr:nth-child(n+4) {display: none;}
+.widget-body tr:nth-child(n+3) td {border-bottom: none;}
+.widget-body tr td a.resetindex {cursor: pointer;color: inherit;}
+.widget-body tr td a.resetindex:hover {color: #1963AA;}
+/*datetimepicker*/
+input.Wdate {background-color: white !important;}
+@media only screen and (max-width: 991px) {
+    #shortcut{display:none}
+}
+@media only screen and (min-width: 768px) {
+    /*index*/
+    .ace-nav > li {height: 50px;line-height: 50px;}
+    .ace-nav > li > a {background-color: transparent !important;}
+    .ace-nav > li.open > a {background-color: transparent !important;}
+    .ace-nav > li > a > span {top: 10px;}
+    .dropdown-menu.dropdown-close {top: 93%}
+    .menu-toggler {width: 52px;z-index: 9999;}
+    .menu-toggler:before, .menu-toggler:after {margin-top: 0;}
+    .menu-toggler > .menu-text {bottom: -10px;border: 0;left: 42px;}
+    .menu-toggler > .menu-text:after {left: -8px;font-size: inherit;top: -41px;}
+    /*insert*/
+    #divcontrols {line-height: 20px;font-size: 12px;}
+    #mytable, .mytable {width: 100%;max-width: 100%;background-color: transparent;border-collapse: collapse;
+        border-spacing: 0;font-family: 'Open Sans';font-size: 13px;color: #393939;line-height: 1.5;border: none;}
+    #mytable tbody, .mytable tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+    #mytable tr, .mytable tr {display: table-row;vertical-align: inherit;border: none;box-sizing: border-box;
+        height: 40px;line-height: inherit;}
+    #mytable td, .mytable td {width: auto;background-color: #f9f9f9;text-align: left;padding: 0;
+        padding-left: 10px;vertical-align: middle;border: none;
+        border-radius: 0!important;box-sizing: border-box;display: table-cell;cursor: default;}
+    #mytable td:first-child, .mytable td:first-child{width: 26%;padding: 0;white-space: nowrap;text-align: right;vertical-align: top;line-height: 40px;}
+    #mytable td select, .mytable td select {height: 30px !important;width: 330px !important;font-size: 12px;padding: 5px 4px;}
+    #mytable td input, .mytable td input {height: 30px !important;width: 330px !important;font-size: 14px;padding: 5px 4px;}
+    #mytable td input[type='file'], .mytable td input[type='file'] {line-height: normal;}
+    #mytable td input[type='checkbox'], .mytable td input[type='checkbox'] {width: 18px !important;height: 18px !important;cursor: pointer;margin-right:5px;
+        vertical-align:middle;padding: 0;line-height: normal;box-sizing: border-box;background-image: none;}
+    #mytable td input[type='radio'], .mytable td input[type='radio'] {width: 18px !important;height: 18px !important;cursor: pointer;margin: 0;margin-right:5px;
+        vertical-align:middle;padding: 0;line-height: normal;box-sizing: border-box;background-image: none;}
+    #mytable td label, .mytable td label {font-weight: 100;font-size: 12px;padding-right: 5px;}
+    #mytable td textarea, .mytable td textarea {width: 330px !important;height: 120px !important;line-height: 20px;padding: 5px 0;margin: 5px 0;}
+    #divButtons {width: auto;height: 40px;line-height: 40px;vertical-align: middle;margin: 0 auto;position: relative;left: 26%;padding-left: 10px;}
+    #divButtons input {width: auto;height: 30px;margin: 5px auto;border: 1px solid transparent;border-radius: 3px;}
+    /*list*/
+    .hovertable {width: 100%;max-width: 100%;background-color: transparent;border-collapse: collapse;
+        border-spacing: 0;font-family: 'Open Sans';font-size: 12px;color: #393939;line-height: 1.5;border: none;}
+    .hovertable th {border-collapse: collapse;border-color: #DDD;font-weight: bold;vertical-align: bottom;white-space: nowrap;
+        border: none;border-bottom: 2px solid #ddd;height: 30px;line-height: 30px;cursor: default;text-align: center;padding: 0 5px;}
+    .hovertable th:first-child {border-left-color: #f1f1f1;}
+    .hovertable tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+    .hovertable tr {display: table-row;vertical-align: inherit;border-color: inherit;box-sizing: border-box;
+        height: 30px;line-height: 30px;}
+    .hovertable tr:first-child {background-color: #f2f2f2;color: #707070;font-weight: normal;display: table-row;
+        vertical-align: inherit;border-color: inherit;background-image: linear-gradient(to bottom,#f8f8f8 0,#ececec 100%);
+        background-repeat: repeat-x;box-sizing: border-box;}
+    .hovertable td {background-color: white;vertical-align: middle;border: none;border-top: 1px solid #ddd;
+        text-align: center !important;border-radius: 0!important;box-sizing: border-box;display: table-cell;cursor: default;}
+    .hovertable td:last-child>a {white-space: nowrap;}
+    .hovertable tbody>tr:hover>td {background-color :#f5f5f5;color: #1963AA;}
+    .hovertable tbody>tr:hover>td:last-child {background-color :#f5f5f5;color: inherit;}
+    .hovertable tbody>tr:nth-child(odd)>td {background-color :#f9f9f9;}
+    .hovertable tbody>tr:nth-child(odd):hover>td {background-color :#f5f5f5;color: #1963AA;}
+    .hovertable tbody>tr:nth-child(odd):hover>td:last-child {background-color :#f5f5f5;color: inherit;}
+    .linkbutton,.linkbutton:focus {height: 30px;line-height: 22px;display:inline-block;background-image:none!important;
+        border:5px solid transparent;border-radius:0;box-shadow:none!important;-webkit-transition:all ease .15s;
+        transition:all ease .15s;cursor:pointer;vertical-align:middle;margin:0;position:relative;text-decoration: none;padding: 0 5px;}
+    .linkbutton:hover {height: 30px;line-height: 20px;display:inline-block;color:#FFF!important;
+        text-shadow:0 -1px 0 rgba(0,0,0,0.25)!important;background-image:none!important;border:5px solid #FFF;
+        border-radius:0;box-shadow:none!important;-webkit-transition:all ease .15s;transition:all ease .15s;
+        cursor:pointer;vertical-align:middle;margin:0;position:relative;text-decoration: none;}
+    .linkbutton:hover {background-color:#4f99c6!important;border-color:#6fb3e0;border-radius: 10px;text-decoration: none;}
+    /*footerpager*/
+    .tablePager>td {height: 40px;line-height: 40px;background-color: white !important;color: inherit !important;}
+    .tablePager>td>span{display: inline-block;color: #1963AA;}
+    .tablePager>td>a{display: inline-block !important;color: #1963AA;text-decoration: none;padding: 0 5px;}
+    .tablePager>td>a:hover{background: none;color: #1963AA;text-decoration: none;}
+    .tablePager>td>input {width: 30px !important;border: none;border-bottom: 1px solid #1963AA;padding: 0;text-align:center;margin: 0 5px;}
+    /*---flow---*/
+    .flowtitle {line-height: 40px; text-align: left;padding-left: 12px;color: #555;overflow: hidden}
+    .flowtitle input {height: 30px !important;width: 200px !important;font-size: 14px;padding: 5px 4px;margin-right: 10px;}
+    .flowtitle select {height: 30px !important;width: 200px !important;font-size: 14px;padding: 5px 4px;margin-right: 10px;}
+    .flowtitle a {border: none;height: 40px;line-height: 40px;}
+    .flowtable {width: 100%;max-width: 100%;background-color: transparent;border-collapse: collapse;
+        border-spacing: 0;font-family: 'Open Sans';font-size: 13px;color: #393939;line-height: 1.5;border: none;}
+    .flowtable  tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+    .flowtable  tr {display: table-row;vertical-align: inherit;border: none;box-sizing: border-box;
+        height: 40px;line-height: 40px;}
+    .flowtable  td {width: auto;background-color: #f9f9f9;text-align: center;padding: 0;
+        padding-left: 10px;vertical-align: middle;border: none;
+        border-radius: 0!important;box-sizing: border-box;display: table-cell;cursor: default;}
+    .flowtable td table {width: 50%;max-width: 50%;background-color: transparent;border-collapse: collapse;margin: 0 auto;
+        border-spacing: 0;font-family: 'Open Sans';font-size: 13px;color: #393939;line-height: 1.5;border: none;}
+    .flowtable td table tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+    .flowtable td table tr {display: table-row;vertical-align: inherit;border: none;box-sizing: border-box;
+        height: 40px;line-height: 40px;}
+    .flowtable td table td {width: auto;background-color: #f9f9f9;padding: 0;vertical-align: middle;
+        text-align: center;border: none;border-radius: 0!important;box-sizing: border-box;display: table-cell;cursor: default;}
+    .flowtable input[type='image'] {width: 58px !important;height: 30px !important;padding: 5px 4px;vertical-align: middle;outline: none;}
+    #taNext {width: 60%;overflow: hidden;margin: 0 auto;}
+    #taNext span {width: 100%;display: block;margin: 0 auto;line-height: 30px;text-align: left;font-size: 13px;}
+    #taNext table {width: 100%;overflow: hidden;margin: 0 auto;font-family: 'Open Sans';font-size: 13px;color: #393939;line-height: 1.5;}
+    #taNext table td {line-height: 30px;padding: 0;}
+    #taNext table input[type='radio'] {width: 18px !important;height: 18px !important;cursor: pointer;margin: 0;margin-right:5px;
+        vertical-align:middle;padding: 0;line-height: normal;box-sizing: border-box;background-image: none;}
+    #taUser {width: 60%;overflow: hidden;margin: 0 auto;}
+    #taUser span {width: 100%;display: block;margin: 0 auto;line-height: 30px;text-align: left;font-size: 13px;}
+    #taUser #pan_user {width: 100%;margin: 0 auto;line-height: 30px;overflow: hidden;}
+    #taUser input[type='button'] {width: auto;height: auto;}
+    /*sendsms*/
+    #cklStaff td {line-height: 28px;padding-right: 10px;}
+    #cklStaff td input[type='checkbox'] {width: 14px !important;height: 14px !important;cursor: pointer;margin-right:5px;
+        vertical-align: middle;padding: 0;line-height: normal;box-sizing: border-box;background-image: none;}
+    #cklStaff td label {line-height: 30px;cursor: pointer;}
+}
+
+@media only screen and (max-width: 767px) {
+    /*index*/
+    .collapse {display: block;}
+    .navbar-collapse {border: none;}
+    .ace-nav > li {height: 50px;line-height: 50px;}
+    .ace-nav > li > a {background-color: transparent !important;}
+    .ace-nav > li.open > a {background-color: transparent !important;}
+    .ace-nav > li > a > span {top: 10px;}
+    .dropdown-menu.dropdown-close {top: 93%}
+    .menu-toggler {width: 52px;z-index: 9999;}
+    .menu-toggler:before, .menu-toggler:after {margin-top: 0;}
+    .menu-toggler > .menu-text {bottom: -10px;border: 0;left: 42px;}
+    .menu-toggler > .menu-text:after {left: -8px;font-size: inherit;top: -41px;}
+    /*insert*/
+    #divcontrols {line-height: 20px;font-size: 12px;}
+    #mytable, .mytable {width: 100%;max-width: 100%;background-color: transparent;border-collapse: collapse;
+        border-spacing: 0;font-family: 'Open Sans';font-size: 13px;color: #393939;line-height: 1.5;border: none;}
+    #mytable tbody, .mytable tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+    #mytable tr, .mytable tr {display: table-row;vertical-align: inherit;border: none;box-sizing: border-box;
+        height: 40px;line-height: inherit;}
+    #mytable td, .mytable td {width: auto;background-color: #f9f9f9;text-align: left;padding: 0;
+        padding-left: 10px;vertical-align: middle;border: none;
+        border-radius: 0!important;box-sizing: border-box;display: table-cell;cursor: default;}
+    #mytable td:first-child, .mytable td:first-child {width: 26%;padding: 0;white-space: nowrap;text-align: right;vertical-align: top;line-height: 40px;}
+    #mytable td select, .mytable td select {height: 30px !important;width: 260px !important;font-size: 12px;padding: 5px 4px;}
+    #mytable td input, .mytable td input {height: 30px !important;width: 260px !important;font-size: 14px;padding: 5px 4px;}
+    #mytable td input[type='file'], .mytable td input[type='file'] {line-height: normal;}
+    #mytable td input[type='image'], .mytable td input[type='image'] {width: 58px !important;height: 30px !important;padding: 5px 4px;vertical-align: middle;outline: none;}
+    #mytable td input[type='checkbox'], .mytable td input[type='checkbox'] {width: 18px !important;height: 18px !important;cursor: pointer;margin-right:5px;
+        vertical-align:middle;padding: 0;line-height: normal;box-sizing: border-box;background-image: none;}
+    #mytable td input[type='radio'], .mytable td input[type='radio'] {width: 18px !important;height: 18px !important;cursor: pointer;margin: 0;margin-right:5px;
+        vertical-align:middle;padding: 0;line-height: normal;box-sizing: border-box;background-image: none;}
+    #mytable td label, .mytable td label {font-weight: 100;font-size: 12px;padding-right: 5px;}
+    #mytable td textarea, .mytable td textarea {width: 260px !important;height: 120px !important;line-height: 20px;padding: 5px 0;}
+    #divButtons {width: auto;height: 40px;line-height: 40px;vertical-align: middle;margin: 0 auto;position: relative;left: 26%;padding-left: 10px;}
+    #divButtons input {width: 50px;height: 30px;margin: 5px auto;border: 1px solid transparent;border-radius: 3px;}
+    /*list*/
+    .hovertable {width: 100%;max-width: 100%;background-color: transparent;border-collapse: collapse;
+        border-spacing: 0;font-family: 'Open Sans';font-size: 12px;color: #393939;line-height: 1.5;border: none;}
+    .hovertable th {border-collapse: collapse;border-color: #DDD;font-weight: bold;vertical-align: bottom;white-space: nowrap;
+        border: none;border-bottom: 2px solid #ddd;height: 30px;line-height: 30px;cursor: default;text-align: center;padding: 0 5px;}
+    .hovertable th:first-child {border-left-color: #f1f1f1;}
+    .hovertable tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+    .hovertable tr {display: table-row;vertical-align: inherit;border-color: inherit;box-sizing: border-box;
+        height: 30px;line-height: 30px;}
+    .hovertable tr:first-child {background-color: #f2f2f2;color: #707070;font-weight: normal;display: table-row;
+        vertical-align: inherit;border-color: inherit;background-image: linear-gradient(to bottom,#f8f8f8 0,#ececec 100%);
+        background-repeat: repeat-x;box-sizing: border-box;}
+    .hovertable td {background-color: white;vertical-align: middle;border: none;border-top: 1px solid #ddd;
+        text-align: center !important;border-radius: 0!important;box-sizing: border-box;display: table-cell;cursor: default;}
+    .hovertable td:last-child>a {white-space: nowrap;}
+    .hovertable tbody>tr:hover>td {background-color :#f5f5f5;color: #1963AA;}
+    .hovertable tbody>tr:hover>td:last-child {background-color :#f5f5f5;color: inherit;}
+    .hovertable tbody>tr:nth-child(odd)>td {background-color :#f9f9f9;}
+    .hovertable tbody>tr:nth-child(odd):hover>td {background-color :#f5f5f5;color: #1963AA;}
+    .hovertable tbody>tr:nth-child(odd):hover>td:last-child {background-color :#f5f5f5;color: inherit;}
+    .linkbutton,.linkbutton:focus {height: 30px;line-height: 22px;display:inline-block;background-image:none!important;
+        border:5px solid transparent;border-radius:0;box-shadow:none!important;-webkit-transition:all ease .15s;
+        transition:all ease .15s;cursor:pointer;vertical-align:middle;margin:0;position:relative;text-decoration: none;padding: 0 5px;}
+    .linkbutton:hover {height: 30px;line-height: 20px;display:inline-block;color:#FFF!important;
+        text-shadow:0 -1px 0 rgba(0,0,0,0.25)!important;background-image:none!important;border:5px solid #FFF;
+        border-radius:0;box-shadow:none!important;-webkit-transition:all ease .15s;transition:all ease .15s;
+        cursor:pointer;vertical-align:middle;margin:0;position:relative;text-decoration: none;}
+    .linkbutton:hover {background-color:#4f99c6!important;border-color:#6fb3e0;border-radius: 10px;text-decoration: none;}
+    /*footerpager*/
+    .tablePager>td {height: 40px;line-height: 40px;background-color: white !important;color: inherit !important;}
+    .tablePager>td>span{display: inline-block;color: #1963AA;}
+    .tablePager>td>a{display: inline-block !important;color: #1963AA;text-decoration: none;padding: 0 5px;}
+    .tablePager>td>a:hover{background: none;color: #1963AA;text-decoration: none;}
+    .tablePager>td>input {width: 30px !important;border: none;border-bottom: 1px solid #1963AA;padding: 0;text-align:center;margin: 0 5px;}
+    /*---flow---*/
+    .flowtitle {line-height: 40px; text-align: left;padding-left: 12px;color: #555;overflow: hidden}
+    .flowtitle input {height: 30px !important;width: 200px !important;font-size: 14px;padding: 5px 4px;margin-right: 10px;}
+    .flowtitle select {height: 30px !important;width: 200px !important;font-size: 14px;padding: 5px 4px;margin-right: 10px;}
+    .flowtitle a {border: none;height: 40px;line-height: 40px;}
+    .flowtable {width: 100%;max-width: 100%;background-color: transparent;border-collapse: collapse;
+        border-spacing: 0;font-family: 'Open Sans';font-size: 13px;color: #393939;line-height: 1.5;border: none;}
+    .flowtable  tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+    .flowtable  tr {display: table-row;vertical-align: inherit;border: none;box-sizing: border-box;
+        height: 40px;line-height: 40px;}
+    .flowtable  td {width: auto;background-color: #f9f9f9;text-align: center;padding: 0;
+        padding-left: 10px;vertical-align: middle;border: none;
+        border-radius: 0!important;box-sizing: border-box;display: table-cell;cursor: default;}
+    .flowtable td table {width: 50%;max-width: 50%;background-color: transparent;border-collapse: collapse;margin: 0 auto;
+        border-spacing: 0;font-family: 'Open Sans';font-size: 13px;color: #393939;line-height: 1.5;border: none;}
+    .flowtable td table tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+    .flowtable td table tr {display: table-row;vertical-align: inherit;border: none;box-sizing: border-box;
+        height: 40px;line-height: 40px;}
+    .flowtable td table td {width: auto;background-color: #f9f9f9;padding: 0;vertical-align: middle;
+        text-align: center;border: none;border-radius: 0!important;box-sizing: border-box;display: table-cell;cursor: default;}
+    .flowtable input[type='image'] {width: 58px !important;height: 30px !important;padding: 5px 4px;vertical-align: middle;outline: none;}
+    #taNext {width: 60%;overflow: hidden;margin: 0 auto;}
+    #taNext span {width: 100%;display: block;margin: 0 auto;line-height: 30px;text-align: left;font-size: 13px;}
+    #taNext table {width: 100%;overflow: hidden;margin: 0 auto;font-family: 'Open Sans';font-size: 13px;color: #393939;line-height: 1.5;}
+    #taNext table td {line-height: 30px;padding: 0;}
+    #taNext table input[type='radio'] {width: 18px !important;height: 18px !important;cursor: pointer;margin: 0;margin-right:5px;
+        vertical-align:middle;padding: 0;line-height: normal;box-sizing: border-box;background-image: none;}
+    #taUser {width: 60%;overflow: hidden;margin: 0 auto;}
+    #taUser span {width: 100%;display: block;margin: 0 auto;line-height: 30px;text-align: left;font-size: 13px;}
+    #taUser #pan_user {width: 100%;margin: 0 auto;line-height: 30px;overflow: hidden;}
+    #taUser input[type='button'] {width: auto;height: auto;}
+    /*sendsms*/
+    #cklStaff {width: auto;}
+    #cklStaff td {line-height: 28px;padding-right: 10px;white-space: nowrap;}
+    #cklStaff td input[type='checkbox'] {width: 14px !important;height: 14px !important;cursor: pointer;margin-right:5px;
+        vertical-align: middle;padding: 0;line-height: normal;box-sizing: border-box;background-image: none;}
+    #cklStaff td label {line-height: 30px;cursor: pointer;white-space: nowrap;}
+}
+
+@media  (max-width: 480px) and (min-width: 461px),(max-width: 360px) {
+    .user-info {line-height: 30px !important;}
+}
+
+@media only screen and (max-width: 460px) {
+    /*index*/
+    .ace-nav {text-align: right !important;background-color: #438EB9;border: 0;border-width: 0 0;letter-spacing: 0;}
+    .ace-nav > li:first-child {border: 0;}
+    .ace-nav > li:last-child {border: 0;}
+    .menu-toggler {margin-top: -40px;}
+    .sidebar {margin-top: 0;}
+    /*insert*/
+    #mytable td select, .mytable td select {width: 220px !important;}
+    #mytable td input, .mytable td input {width: 220px !important;}
+    #mytable td textarea, .mytable td textarea {width: 220px !important;height: 140px !important;}
+    /*list*/
+    .hovertable tr {line-height: 25px;}
+}
+
+@media only screen and (max-width: 375px) {
+    /*insert*/
+    #mytable td select, .mytable td select {width: 180px !important;}
+    #mytable td input, .mytable td input {width: 180px !important;}
+    #mytable td textarea, .mytable td textarea {width: 180px !important;height: 140px !important;}
+    /*list*/
+    .hovertable tr {line-height: 20px;}
+    /*flow*/
+}
+
+@media only screen and (max-width: 320px) {
+
+}

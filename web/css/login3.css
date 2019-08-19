@@ -1,0 +1,23 @@
+html,body {margin: 0;padding: 0;font-family: "Microsoft YaHei";overflow: hidden;width: 100%;height: 100%;font-size:12px !important;_font-size: 12px;*font-size: 12px;}
+body {-webkit-tap-highlight-color: rgba(0,0,0,0);}
+input {font-family: "Microsoft YaHei";}
+#loginbg {width: auto;height: 100%;background: url("../images/login/loginbg4.png") top center no-repeat #f4f5f5;background-size: cover;-webkit-background-size: cover;-o-background-size: cover;background-attachment:fixed;background-position: center 0;}.logo {width: 400px;height: 50px;position: absolute;top: 10%;margin-top: 10px;left: 20%;margin-left: -20px;}
+.logo img {width: auto;height:40px;}
+.formbg {width: 470px;height: 337px;position: absolute;top: 50%;margin-top: -160px;left: 50%;margin-left: -235px;
+    background: url('../images/login/loginbg31.png') top center no-repeat;background-size: 470px 337px;}
+.login {width: 400px;height: 250px;position: absolute;top: 50%;margin-top: -75px;left: 50%;margin-left: -200px;}
+.form-group, .form-validata {width: 100%;height: 50px;margin: 0 auto;clear: both;}
+.form-group span , .form-validata span {display: block;width: 70px;line-height: 50px;float: left;text-align: right;font-size:12px;}
+.form-group input {width: 286px;height: 30px;margin: 10px;padding: 0 20px;font-size: 14px;outline: none;border:none;float: left;background: url('../images/login/inputbg.png') no-repeat;background-size: 286px 30px;-web-kit-appearance:none;-moz-appearance: none;}
+.form-validata input {width: 185px;height: 30px;margin: 10px;padding: 0 20px;font-size: 14px;outline: none;border:none;float: left;background: url('../images/login/inputbg.png') no-repeat;background-size: 185px 30px;-web-kit-appearance:none;-moz-appearance: none;}
+.form-validata img {width: 80px;height: 30px;border: none;margin-top: 10px;margin-left: 10px;}
+.form-submit {width: 286px;height: 50px;margin-left: 80px;}
+.form-submit span {position: absolute;display: block;width: 286px;line-height: 30px;text-align: center;color: #fff;}
+.form-submit input {width: 100%;height: 30px;border: none;outline: none;cursor: pointer;margin-top: 10px;background:url('../images/login/loginButton.png');background-size: 286px 30px;}
+::-webkit-input-placeholder {color:#7CAFCC;font-weight: bold;}
+:-moz-placeholder {color:#7CAFCC;font-weight: bold;}
+::-moz-placeholder {color:#7CAFCC;font-weight: bold;}
+:-ms-input-placeholder {color:#7CAFCC;font-weight: bold;}
+.footer {width: 100%;position: absolute; bottom: 10px;text-align:center;font-size: 12px;}
+
+

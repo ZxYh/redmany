@@ -1,0 +1,40 @@
+html,body {margin: 0;padding: 0;font-family: "Microsoft YaHei";overflow: hidden;width: 100%;height: 100%;}
+body {-webkit-tap-highlight-color: rgba(0,0,0,0);}
+input {font-family: "Microsoft YaHei";}
+#loginbg {width: 100%;height: 100%;background-image: url("../images/login/loginbg3.png");background-repeat: no-repeat;background-attachment:fixed;background-position: center 0;background-size: cover;-webkit-background-size: cover;-o-background-size: cover;}
+::-webkit-input-placeholder {color:#7CAFCC;font-weight: 100;}
+:-moz-placeholder {color:#7CAFCC;font-weight: 100;}
+::-moz-placeholder {color:#7CAFCC;font-weight: 100;}
+:-ms-input-placeholder {color:#7CAFCC;font-weight: 100;}
+.footer {width: 100%;position: absolute; bottom: 0.2rem;text-align:center;}
+
+@media all and (orientation : portrait){ 
+    .logo {width: 100%;height: 1rem;position: absolute;top: 10%;margin-top: 0.2rem;}
+    .logo img {display: block;width:auto;height: 0.6rem;margin: 0 auto;}
+    .formbg {width: 5.5rem;height: 4.5rem;position: absolute;top: 50%;margin-top: -2.25rem;left: 50%;margin-left: -2.75rem;
+        background: url('../images/login/loginbg31.png') top center no-repeat;background-size: 5.5rem 4.5rem;}
+    .login {width: 4.8rem;height: 3.2rem;position: absolute;top: 50%;margin-top: -1.18rem;left: 50%;margin-left: -2.4rem;font-size: 0.22rem;}
+    .form-group, .form-validata {width: 100%;height: 0.64rem;margin: 0 auto;clear: both;}
+    .form-group span , .form-validata span {display: block;width: 1rem;line-height: 0.64rem;float: left;text-align: right;}
+    .form-group input {width: 3.4rem;height: 0.4rem;line-height: 0.4rem;margin: 0.12rem;padding: 0 0.2rem;outline: none;border:none;float: left;background: url('../images/login/inputbg.png') no-repeat;background-size: 3.4rem 0.4rem;-web-kit-appearance:none;-moz-appearance: none;font-size: 0.22rem;}
+    .form-validata input {width: 2.2rem;height: 0.4rem;line-height: 0.4rem;margin: 0.12rem;padding: 0 0.2rem;outline: none;border:none;float: left;background: url('../images/login/inputbg.png') no-repeat;background-size: 2.2rem 0.4rem;-web-kit-appearance:none;-moz-appearance: none;font-size: 0.22rem;}
+    .form-validata img {width: 1rem;height: 0.4rem;border: none;margin-top: 0.12rem;margin-left: 0.08rem;}
+    .form-submit {width: 3.4rem;height: 0.64rem;margin-left: 1.1rem;}
+    .form-submit input {width: 100%;height: 0.4rem;border: none;outline: none;cursor: pointer;margin-top: 0.12rem;background: url("../images/login/loginButton.png");background-size: 3.4rem 0.4rem;}
+} 
+@media all and (orientation : landscape) { 
+    .logo {width: 100%;height: 0.5rem;position: absolute;top: 3%;margin-top: 0.2rem;}
+    .logo img {display: block;width:auto;height: 0.3rem;margin: 0 auto;}
+    .formbg {width: 2.5rem;height: 1.8rem;position: absolute;top: 50%;margin-top: -0.9rem;left: 50%;margin-left: -1.25rem;
+        background: url('../images/login/loginbg31.png') top center no-repeat;background-size: 2.5rem 1.8rem;}
+    .login {width: 2.1rem;height: 1.3rem;position: absolute;top: 50%;margin-top: -0.5rem;left: 50%;margin-left: -1.05rem;font-size: 0.12rem;}
+    .form-group, .form-validata {width: 100%;height: 0.26rem;margin: 0 auto;clear: both;}
+    .form-group span , .form-validata span {display: block;width: 0.6rem;line-height: 0.26rem;float: left;text-align: right;}
+    .form-group input {width: 1.4rem;height: 0.2rem;line-height: 0.2rem;margin: 0.03rem;padding: 0 0.15rem;outline: none;border:none;float: left;background: url('../images/login/inputbg.png') no-repeat;background-size: 1.4rem 0.2rem;-web-kit-appearance:none;-moz-appearance: none;font-size: 0.12rem;}
+    .form-validata input {width: 1rem;height: 0.2rem;line-height: 0.2rem;margin: 0.03rem;padding: 0 0.15rem;outline: none;border:none;float: left;background: url('../images/login/inputbg.png') no-repeat;background-size: 1rem 0.2rem;-web-kit-appearance:none;-moz-appearance: none;font-size: 0.12rem;}
+    .form-validata img {width: 0.35rem;height: 0.2rem;border: none;margin-top: 0.03rem;margin-left: 0.02rem;}
+    .form-submit {width: 1.4rem;height: 0.64rem;margin-left: 0.625rem;}
+    .form-submit input {width: 100%;height: 0.2rem;border: none;outline: none;cursor: pointer;margin-top: 0.03rem;background: url("../images/login/loginButton.png");background-size: 1.4rem 0.2rem;}
+} 
+
+
